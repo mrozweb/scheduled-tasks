@@ -1,30 +1,4 @@
-# import smtplib
-#
-# my_email = "deboerbeata@gmail.com"
-# password = "ibfdodlwkwqhoyrx"
-#
-# with smtplib.SMTP('smtp.gmail.com') as connection:
-#     # This code make connection secure
-#     connection.starttls()
-#     connection.login(my_email, password)
-#     connection.sendmail(
-#         from_addr=my_email,
-#         to_addrs="deboerbeata3@gmail.com",
-#         msg="Subject:Hello!\n\nThis is the body of my email."
-#     )
-# connection.quit()
-# connection.close()
-#****************************************************************************
-# import datetime as dt
-#
-# now = dt.datetime.now()
-# year = now.year
-# month = now.month
-# day_of_week = now.weekday()
-# print(day_of_week)
-#
-# day_of_birth = dt.datetime(year=1984, month=4, day=1, hour=6)
-# print(day_of_birth)
+import os
 import random
 import smtplib
 import datetime as dt
