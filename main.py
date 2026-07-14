@@ -9,7 +9,7 @@ MY_PASSWORD = os.environ.get("MY_PASSWORD")
 now = dt.datetime.now()
 weekday = now.weekday()
 
-if weekday == 1:
+if weekday == 0:
     with open("quotes.txt") as file:
         quotes = [quote.strip() for quote in file.readlines()]
         random_quote = random.choice(quotes)
