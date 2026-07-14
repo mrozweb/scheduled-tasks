@@ -17,7 +17,7 @@ if weekday == 1:
     with smtplib.SMTP('smtp.gmail.com') as connection:
         # This code makes connection secure
         connection.starttls()
-        connection.login(MY_EMAIL, PASSWORD)
+        connection.login(MY_EMAIL, MY_PASSWORD)
         connection.sendmail(
             from_addr=MY_EMAIL ,
             to_addrs="deboerbeata3@gmail.com",
